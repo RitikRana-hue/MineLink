@@ -127,13 +127,8 @@ export default function Home() {
                 <Button size="lg" render={<Link href="/solutions" />} className="h-12 px-8 text-base">
                   Explore Solutions
                 </Button>
-                <Button size="lg" variant="outline" render={<Link href="/dashboard" />} className="h-12 px-8 text-base">
-                  See Dashboard
-                </Button>
-              </div>
-              <div className="flex items-center justify-center lg:justify-start">
-                <Button variant="link" className="px-0 text-muted-foreground hover:text-accent" render={<Link href="/contact" />}>
-                  Contact Us <ArrowRight className="ml-1 h-4 w-4" />
+                <Button size="lg" variant="outline" render={<Link href="/contact" />} className="h-12 px-8 text-base">
+                  Get in Touch
                 </Button>
               </div>
               <div className="h-1 w-24 rounded-full bg-accent/60 lg:ml-0 mx-auto" />
